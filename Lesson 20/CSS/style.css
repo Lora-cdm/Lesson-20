@@ -1,0 +1,147 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #7d4a91;
+}
+
+/* Logo styles */
+.logo img {
+    max-height: 200px;
+}
+
+/* Navbar links */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #cac2d8;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.nav-links a:hover {
+    color: #ffffff; /* Hover effect color */
+    background-color: #694477;
+    border-radius: 10px;
+    padding: 10px;
+    transition: color 0.5s ease;
+}
+
+.welcome-container{
+    background-color: #7d4a91;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    display: flex;
+    flex-direction: column;
+}
+
+#welcome-content {
+    padding: 100px;
+    text-align: center;
+    color: #f9f6ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+#button {
+    margin-top: -40px;
+    margin-bottom: 100px;
+    background-color: #eb7d4b;
+    padding: 20px;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-weight: 540;
+    box-shadow: #694477 5px 5px;
+}
+
+#button:hover {
+    background-color: #eb7c48;
+    box-shadow: #694477 7px 7px;
+    transition: 0.5 ease-in;
+}
+
+/* Container styles */
+.container2 {
+    padding: 40px;
+}
+
+/* Title and description styles */
+#title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container2 p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Services container */
+.services {
+    display: flex;    
+    flex-direction: column;           /* Flexbox for row layout */
+    justify-content: space-between;  /* Even space between the items */
+    align-items: flex-starts;     /* Align items to the start of the container */
+    gap: 20px;               /* Space between each service item */          /* Allow items to wrap to the next line if needed */
+}
+
+/* Service item styling */
+.services div {
+    display: flex;
+    flex-direction: row;
+    text-align: center;          /* Center the content inside each service box */
+    width: 100%;                  /* Control the width of each item */
+    background-color: #f0f0f0;   /* Light background for each service box */
+    padding: 20px;               /* Padding around the content */
+    border-radius: 8px;          /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+    
+}
+
+/* Image inside the service item */
+.services img {
+    width: 100%;                 /* Make images fill the container */
+    height: auto;                /* Maintain aspect ratio */
+    border-radius: 8px;          /* Round the corners of images */
+    margin-bottom: 15px;         /* Space between image and text */
+}
+
+/* Heading inside service item */
+.services h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Paragraph inside service item */
+.services p {
+    font-size: 14px;
+    color: #666;
+}
+
+.service-items {
+    display: flex;
+    flex-direction: column;
+}
+
